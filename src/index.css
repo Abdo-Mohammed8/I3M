@@ -1,0 +1,409 @@
+/* Variables */
+
+:root {
+   --color-white: #fff;
+   --color-black: #000;
+   --color-mode-light-bg: rgb(237, 240, 243);
+ 
+   --color-mode-dark-bg: #2a3448;
+   --color-scrollbar-track: #e9f1ff;
+   --color-scrollbar-thumb: #2a3448;
+ 
+   --color-mode-dark-overlay-65: rgba(0, 0, 0, 0.65);
+   --color-mode-dark-overlay-75: rgba(0, 0, 0, 0.75);
+   --color-mode-dark-overlay-80: rgba(0, 0, 0, 0.8);
+   --color-mode-dark-overlay-50: rgba(0, 0, 0, 0.081);
+   --color-mode-dark-overlay-62: rgba(0, 0, 0, 0.451);
+ 
+   --color-mode-dark-glass: rgba(23, 23, 23, 0.751);
+   --color-mode-light-glass: rgba(255, 255, 255, 0.852);
+   --color-mode-light-text: rgb(76, 76, 76);
+ 
+   --color-card-border: rgba(128, 128, 128, 0.559);
+   --color-link-hover: #bcd1e7;
+   --color-aliceblue: aliceblue;
+ }
+
+ [data-theme='light'] {
+      --color-white: #000000;
+      --color-black: #ffffff;
+      --color-mode-light-bg: #232323;
+      --color-mode-dark-bg: #dce3ec; 
+      --color-scrollbar-track: #f5f7fa;
+      --color-scrollbar-thumb: #9aa7b6;
+      --color-mode-dark-overlay-65: rgba(255, 255, 255, 0.893);
+      --color-mode-dark-overlay-75: rgba(255, 255, 255, 0.75);
+      --color-mode-dark-overlay-80: rgba(255, 255, 255, 0.8);
+      --color-mode-dark-overlay-50: rgba(109, 109, 109, 0.16);
+      --color-mode-dark-overlay-62: rgba(255, 255, 255, 0.684);
+      --color-mode-dark-glass: rgba(255, 255, 255, 0.945);
+      --color-mode-light-text: #2e2e2e;
+      --color-card-border: rgba(0, 0, 0, 0.15);
+      --color-link-hover: #4b6e91;
+      --color-aliceblue: #000000;
+ }
+ 
+ @import url("https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+ 
+ body {
+   font-family: "Roboto", sans-serif;
+   background-color: var(--color-mode-dark-bg);
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+   font-family: "Comic Relief", system-ui;
+   color: var(--color-white);
+   transition: all 0.5s;
+ }
+ 
+ p, span, i ,label {
+   color: var(--color-mode-light-bg);
+   transition: all 0.5s;
+ }
+ .mode-icon{
+   cursor: pointer;
+ }
+
+ 
+ .hight-100 {
+   height: 100px;
+ }
+ 
+ .p-100 {
+   padding: 100px 0;
+ }
+ .p-50 {
+   padding: 60px 20px;
+ }
+ .p-60-0 {
+   padding: 60px 0px;
+ }
+ .mb-80 {
+   margin-bottom: 80px;
+ }
+ .mb-30 {
+   margin-bottom: 30px;
+ }
+ .font-60 {
+   font-size: 60px;
+ }
+ .font-13 {
+   font-size: 13px;
+ }
+ .font-12 {
+   font-size: 12px;
+ }
+ .font-14 {
+   font-size: 14px;
+ }
+ .font-15 {
+   font-size: 15px;
+ }
+ .font-18 {
+   font-size: 18px;
+ }
+ .font-30 {
+   font-size: 30px;
+ }
+ .font-40 {
+   font-size: 40px;
+ }
+ .font-50 {
+   font-size: 50px;
+ }
+ 
+ #what-we-do,
+ #vision,
+ #our-team,
+ #our-system,
+ #contact,
+ #Product {
+   min-height: 100vh;
+   margin-top: 70px;
+   
+ }
+ 
+ #our-system {
+   background-image: linear-gradient(var(--color-mode-dark-overlay-65), var(--color-mode-dark-overlay-65)),
+     url("./assets/system.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   
+ }
+ #our-team {
+   background-image: linear-gradient(var(--color-mode-dark-overlay-75), var(--color-mode-dark-overlay-75)),
+     url("./assets/ourTeam.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+ }
+ #Product {
+   background-image: linear-gradient(var(--color-mode-dark-overlay-75), var(--color-mode-dark-overlay-75)),
+     url("./assets/prod/felmant.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+ }
+ 
+ .system-dark {
+   border-radius: 15px;
+   background-color: var(--color-mode-dark-glass);
+   -webkit-backdrop-filter: blur(5px);
+   backdrop-filter: blur(5px);
+   transition: all 0.5s;
+ }
+ 
+ #vision {
+   background-image: linear-gradient(var(--color-mode-dark-overlay-65), var(--color-mode-dark-overlay-65)),
+     url("./assets/mixed-reality.webp");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+ }
+ 
+ #vision p {
+   padding: 15px;
+ }
+ 
+ #contact {
+   background-image: linear-gradient(var(--color-mode-dark-overlay-80), var(--color-mode-dark-overlay-80)),
+     url("./assets/email_icon.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+ }
+ 
+ #what-we-do {
+   background-image: linear-gradient(var(--color-mode-dark-overlay-80), var(--color-mode-dark-overlay-80)),
+     url("./assets/what.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+ }
+ 
+
+ 
+ .section-header {
+   position: relative;
+   display: inline-block;
+   font-size: 55px;
+ }
+ 
+ body::-webkit-scrollbar,
+ .system-parts::-webkit-scrollbar {
+   width: 10px;
+ }
+ 
+ body::-webkit-scrollbar-track,
+ .system-parts::-webkit-scrollbar-track {
+   background: var(--color-scrollbar-track);
+   border-radius: 5px;
+ }
+ 
+ body::-webkit-scrollbar-thumb,
+ .system-parts::-webkit-scrollbar-thumb {
+   background: var(--color-scrollbar-thumb);
+   border-radius: 2px;
+ }
+ 
+ h1 {
+   max-width: 800px;
+   text-align: center;
+ }
+ 
+ #home {
+   background-image: linear-gradient(rgb(0,0,0,0.4), rgb(0,0,0,0.4)),
+     url("./assets/5630939.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+ }
+
+ 
+ .animat::before {
+   content: "";
+   animation: animat-span 2s infinite ease-in-out alternate;
+ }
+ 
+ @keyframes animat-span {
+   33.33% {
+     content: "I";
+   }
+   66.66% {
+     content: "I3";
+   }
+   99.99% {
+     content: "I3M";
+   }
+ }
+ 
+ .navbar-toggler:focus {
+   text-decoration: none;
+ }
+ 
+ .custom-navbar {
+   box-shadow: 0px 17px 17px 13px var(--color-mode-dark-overlay-50),
+     0px 0px 30px 30px rgba(0, 0, 0, 0.1);
+   background-color: var(--color-mode-dark-overlay-62);
+   -webkit-backdrop-filter: blur(5px);
+   backdrop-filter: blur(5px);
+   transition: all 0.5s;
+ }
+ 
+ a.nav-link {
+   margin: 0 15px;
+   position: relative;
+ }
+ 
+ .navbar-nav a.nav-link.active,
+ .navbar-nav a.nav-link.show {
+   color: var(--color-white);
+ }
+ 
+ .navbar-nav a.nav-link.active::before,
+ .navbar-nav a.nav-link.show::before {
+   width: 100%;
+ }
+ 
+ .navbar-nav a.nav-link::before {
+   content: "";
+   position: absolute;
+   left: 0px;
+   bottom: 0;
+   height: 2px;
+   width: 0%;
+   background-color: var(--color-aliceblue);
+   transition: all 0.5s;
+ }
+ 
+ .navbar-nav a.nav-link:hover:before {
+   width: 100%;
+ }
+ 
+ .animat-header {
+   animation: opacity 0.5s infinite alternate linear;
+ }
+ 
+ @keyframes opacity {
+   from {
+     opacity: 1;
+   }
+   to {
+     opacity: 0.6;
+   }
+ }
+ 
+ .system-parts {
+   height: 450px;
+ }
+ 
+ .imge-sec-card {
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+ }
+ 
+ .card-icons a {
+   color: var(--color-black);
+ }
+ 
+ a i:hover {
+   color: var(--color-link-hover);
+   cursor: pointer;
+   animation: icon-move 0.2s infinite alternate;
+   transition: all 0.3s;
+ }
+ 
+ @keyframes icon-move {
+   25% {
+     transform: translate(1px, 0);
+   }
+   50% {
+     transform: translate(1, -1px);
+   }
+   75% {
+     transform: translate(-1px, 0);
+   }
+   100% {
+     transform: translate(0px, 1px);
+   }
+ }
+ 
+ .team-card {
+   border: solid var(--color-card-border) 2px;
+   transition: all 0.5s;
+ }
+ 
+ .img-container img {
+   height: 400px;
+   object-fit: contain;
+ }
+ 
+ .logo-img {
+   width: 60px;
+   border-radius: 10px;
+ }
+ 
+ .footer-icons {
+   height: 120px;
+ }
+ .footer-icons a {
+   color: var(--color-white);
+   text-decoration: none;
+ }
+ 
+ .product-img {
+   width: 200px;
+ }
+ 
+ .product-card {
+   transition: all 0.3s;
+ }
+ 
+ .product-card:hover {
+   transform: scale(1.02);
+ }
+ 
+ .product-animat {
+   margin: 0;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   animation: rotat 2s infinite forwards linear;
+ }
+ 
+ @keyframes rotat {
+   from {
+     transform: translate(-50%, -50%) rotate(0deg);
+   }
+   to {
+     transform: translate(-50%, -50%) rotate(360deg);
+   }
+ }
+ 
+ @media (min-width: 992px) {
+   .navbar-expand-lg .navbar-nav a.nav-link {
+     padding-right: 0;
+     padding-left: 0;
+   }
+ }
+ 
+ @media (min-width: 1400px) {
+   .container,
+   .container-lg,
+   .container-md,
+   .container-sm,
+   .container-xl,
+   .container-xxl {
+     max-width: 1520px;
+   }
+ }
+ 
