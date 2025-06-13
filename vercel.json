@@ -1,0 +1,8 @@
+{
+    "rewiteres" : [
+        {
+            "source" : "/(.*)",
+            "destination" : "/"
+
+    ]
+}
