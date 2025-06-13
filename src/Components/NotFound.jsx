@@ -6,7 +6,7 @@ export default function NotFound() {
         <div className="conteiner m-auto">
             <div className="system-dark ">
 
-                <h2 className=' display-1 text-white p-50'>
+                <h2 className=' display-1 text-center text-white p-50'>
                 Invalid path
                 </h2>
 

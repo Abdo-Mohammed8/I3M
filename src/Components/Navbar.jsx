@@ -1,11 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
 import logo from './../assets/logo-2.png'
-import ScrollSpy from 'react-scrollspy-navigation'
 import { NavLink } from 'react-router-dom'
 
 export default function Navbar({switchTheme ,theme}) {
 
-  console.log(switchTheme);
 
   return (
 

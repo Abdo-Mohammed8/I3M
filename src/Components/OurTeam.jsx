@@ -88,12 +88,8 @@ export default function OurTeam() {
 
         <div id='our-team'>
             
-            <div ref={ref} style={{
-                transform: isInView ? "none" : "translateX(-400px)",
-                opacity: isInView ? 1 : 0,
-                transition: "transform 1s ,opacity 2s"
-            }}
-             className="container  p-50">
+            <div ref={ref} 
+             className={`container  p-50 ${isInView? 'custom-ani-d':'custom-ani-e'}`}>
                 <div className='text-center text-white mb-3'>
                     <h2 className='section-header'>
                         Our Team

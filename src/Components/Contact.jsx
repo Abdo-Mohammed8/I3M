@@ -42,12 +42,8 @@ export default function Contact() {
 
     return (
         <div id='contact' className='primary-section'>
-            <div className="container p-50"
-                ref={ref} style={{
-                    transform: isInView ? "none" : "translateX(-400px)",
-                    opacity: isInView ? 1 : 0,
-                    transition: "transform 1s ,opacity 2s"
-                }}>
+            <div className={`container p-50 ${isInView? 'custom-ani-d':'custom-ani-e'}`}
+                ref={ref} >
                 <div className='text-center text-white'>
                     <h2 className='section-header mb-5'>
                         Email Us

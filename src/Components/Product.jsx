@@ -12,12 +12,8 @@ export default function Product() {
     return (
         <div id='Product'>
 
-            <div ref={ref} style={{
-                transform: isInView ? "none" : "translateX(-400px)",
-                opacity: isInView ? 1 : 0,
-                transition: "transform 1s ,opacity 2s"
-            }}
-                className="container h-100 p-50">
+            <div ref={ref} 
+                className={`container h-100 p-50 ${isInView? 'custom-ani-d':'custom-ani-e'}`}>
 
 
                 <div className=" h-100">
