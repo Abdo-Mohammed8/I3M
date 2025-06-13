@@ -1,5 +1,5 @@
 {
-    "rewiteres" : [
+    "rewrites" : [
         {
             "source" : "/(.*)",
             "destination" : "/"
