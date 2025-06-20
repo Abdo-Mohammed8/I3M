@@ -22,12 +22,12 @@ export default function Vision() {
                 </div>
                 
 
-                <div className="system-dark p-4">
+                <div className="system-dark p-1 p-lg-4">
                 
                 <div className="row">
                     <div className="col-12 order-1 order-lg-0 col-lg-6"><div className="inner px-1">
 
-                        <p className='fs-5'>
+                        <p className='px-1 py-3 p-lg-3'>
                             <span className='fw-bold'>We hope</span> that our future work will be to develop and add new technology that enhances the quality of the current system. Below we present some future scenarios for developing the project: First, in order to have the best possible quality for the STL files through the 3D Scanner, the next application will be the scanning process through the camera of the personal mobile phone or the iPad, through an electronic part consisting of an infrared sensor that is installed on the camera and the process begins
                             This will provide us with what is missing in the current 3D Scanner, which used to do its job with small parts that fit its size and the ability of the motor to carry these parts and rotate in them, as the new part will enable us to perform the scanning process for any object with much greater ease. It will also use artificial intelligence algorithms in order to convert the images into an STL file.
                         </p>

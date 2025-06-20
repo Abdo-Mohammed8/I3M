@@ -23,13 +23,13 @@ export default function Product() {
                         </h2>
                     </div>
 
-                    <div className="system-dark py-5 px-4">
+                    <div className="system-dark  p-1  p-lg-4">
 
                 <h2 className='text-center  mb-30'> Step-by-Step Filament Production Process</h2>
                 <div className="div">
                     <div className="row">
                         <div className="col-12 col-lg-6 order-1 order-lg-0">
-                            <div className="inner fs-5 p-3 ">
+                            <div className="inner p-3 ">
                             <p><strong>1. Feeding the Plastic Bottle:</strong> The bottle is cut into a continuous thin strip, either manually or via a mounted cutting tool.</p>
                         <p><strong>2. Melting the Plastic Strip:</strong> The strip is fed into an electrically heated extruder, typically set between 180–220°C depending on the plastic type. Inside the extruder, the strip melts and is pushed through a small nozzle.</p>
                         <p><strong>3. Forming the Filament:</strong> The melted plastic exits the nozzle as a thin, uniform filament. Air or water cooling may be applied immediately to solidify its shape.</p>
@@ -58,12 +58,12 @@ export default function Product() {
 
                     <div className="row  position-relative">
                         <div className="col-lg-6 col-12">
-                            <div className="product-card   h-100 p-3">
-                                <div className="inner d-flex system-dark h-100 p-3 rounded-4">
+                            <div className="product-card   h-100 px-1 py-2 p-lg-3">
+                                <div className="inner d-flex system-dark h-100 p-1 p-lg-3 rounded-4">
                                     <div className='product-img'>
                                         <img className='w-100' src={prod1} alt="product" />
                                     </div>
-                                    <div className="product-details p-3">
+                                    <div className="product-details p-1 p-lg-3">
                                         <h2>
                                             Lorem, ipsum.
                                         </h2>
@@ -79,12 +79,12 @@ export default function Product() {
                             </div>
                         </div>
                         <div className="col-lg-6 col-12">
-                            <div className="product-card   h-100 p-3">
-                                <div className="inner d-flex system-dark h-100 p-3 rounded-4">
+                            <div className="product-card   h-100 px-1 py-2 p-lg-3">
+                                <div className="inner d-flex system-dark h-100 p-1 p-lg-3 rounded-4">
                                     <div className='product-img'>
                                         <img className='w-100' src={prod2} alt="product" />
                                     </div>
-                                    <div className="product-details p-3">
+                                    <div className="product-details p-1 p-lg-3">
                                         <h2>
                                             Lorem, ipsum.
                                         </h2>
@@ -100,12 +100,12 @@ export default function Product() {
                             </div>
                         </div>
                         <div className="col-lg-6 col-12">
-                            <div className="product-card   h-100 p-3">
-                                <div className="inner d-flex system-dark h-100 p-3 rounded-4">
+                            <div className="product-card   h-100 px-1 py-2 p-lg-3">
+                                <div className="inner d-flex system-dark h-100 p-1 p-lg-3 rounded-4">
                                     <div className='product-img'>
                                         <img className='w-100' src={prod2} alt="product" />
                                     </div>
-                                    <div className="product-details p-3">
+                                    <div className="product-details p-1 p-lg-3">
                                         <h2>
                                             Lorem, ipsum.
                                         </h2>
@@ -121,12 +121,12 @@ export default function Product() {
                             </div>
                         </div>
                         <div className="col-lg-6 col-12">
-                            <div className="product-card   h-100 p-3">
-                                <div className="inner d-flex system-dark h-100 p-3 rounded-4">
+                            <div className="product-card   h-100 px-1 py-2 p-lg-3">
+                                <div className="inner d-flex system-dark h-100 p-1 p-lg-3 rounded-4">
                                     <div className='product-img'>
                                         <img className='w-100' src={prod3} alt="product" />
                                     </div>
-                                    <div className="product-details p-3">
+                                    <div className="product-details p-1 p-lg-3">
                                         <h2>
                                             Lorem, ipsum.
                                         </h2>

@@ -1,11 +1,12 @@
 import React from 'react'
 import logo from './../assets/logo-2.png'
+import qr from './../assets/QR.jpg'
 
 export default function Footer() {
     return (
         <div className='py-4 footer system-dark rounded-0'>
             <div className="container">
-                <div className="d-flex flex-column flex-lg-row align-items-center  justify-content-between ">
+                <div className="d-flex flex-column gap-2 flex-lg-row align-items-center  justify-content-between ">
                     <div className="col-lg-4 col-12">
                         <div className="inner d-flex flex-column justify-content-center  align-items-center ">
                             <img className=' logo-img' src={logo} alt="logo img" />
@@ -14,15 +15,26 @@ export default function Footer() {
                     </div>
                     <div className="col-lg-4">
                         <div>
-                            <h4 className=' mb-4'>
+                            <h4 className=' text-center mb-3 mt-3 '>
+                            Website link
+                            </h4>
+                        </div>
+                        <div className="inner text-center">
+                            <img className='qr-imge' src={qr} alt='Qr-code' />
+
+                        </div>
+                    </div>
+                    <div className="col-lg-4">
+                        <div>
+                            <h4 className='mb-4'>
                                 Contact us by 
                             </h4>
                         </div>
-                        <div className="inner footer-icons d-flex flex-column justify-content-between align-items-baseline text-center">
+                        <div className="inner  footer-icons d-flex flex-column justify-content-between align-items-baseline text-center">
 
-                        <a  target='_blank' href="https://wa.me/+201095412871"><i className="fa-brands fa-facebook fa-2xl me-2 mb-2" />Facebook</a>
+                        <a  target='_blank' href="https://www.facebook.com/share/18zcLahiSV/"><i className="fa-brands fa-facebook fa-2xl me-2 mb-2" />Facebook</a>
                         <a  target='_blank' href="https://wa.me/+201095412871"><i className="fa-brands fa-square-whatsapp fa-2xl  mb-2 me-2"  />WhatsApp</a>
-                        <a  target='_blank' href="https://wa.me/+201095412871"><i className="fa-solid fa-envelope fa-2xl me-2 mb-2" />Gmail</a>
+                        <a  target='_blank' href="mailto:abdo.mohammed.pc@gmail.com"><i className="fa-solid fa-envelope fa-2xl me-2 mb-2" />Gmail</a>
 
                             
 
@@ -33,6 +45,7 @@ export default function Footer() {
 
                         </div>
                     </div>
+                   
                 </div>
                 <div className='text-center mt-3'>
                     <p className='m-0'>

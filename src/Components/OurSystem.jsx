@@ -28,7 +28,8 @@ export default function OurSystem() {
     return (
         <div id='our-system' className='bg-section'>
 
-            <div className={`container p-50 ${isInView? 'custom-ani-d':'custom-ani-e'}`}
+            <div ref={ref} 
+             className={`container p-50 ${isInView? 'custom-ani-d':'custom-ani-e'}`}
                 >
 
                 <div className='text-center text-white'>
@@ -38,11 +39,11 @@ export default function OurSystem() {
                 </div>
 
 
-                <div className="system-dark p-4">
+                <div className="system-dark p-1 p-lg-4">
 
 
                     <div className="row">
-                        <div className='col-lg-6 col-12 py-5 py-lg-0 '>
+                        <div className='col-lg-6 col-12 py-4 py-lg-0 '>
                             <div className="inner px-3 img-container">
                                 <Slider {...settings}>
 
@@ -59,8 +60,8 @@ export default function OurSystem() {
 
                             </div>
                         </div>
-                        <div className='col-lg-6 col-12 py-5 py-lg-0'>
-                            <div className="inner system-parts overflow-y-auto fs-5  px-3">
+                        <div className='col-lg-6 col-12 py-3 py-lg-0'>
+                            <div className="inner system-parts overflow-y-auto  px-1 fw-semibold">
                                 <p>
                                     1. Input of Plastic Water Bottles
                                     Empty water bottles made from PET (Polyethylene Terephthalate)—one of the most common types of plastic—are collected. These bottles are thoroughly cleaned to remove any impurities and then fed into a specialized shredding machine.

@@ -73,7 +73,7 @@
    padding: 100px 0;
  }
  .p-50 {
-   padding: 60px 20px;
+   padding: 60px 10px;
  }
  .p-60-0 {
    padding: 60px 0px;
@@ -216,8 +216,8 @@
  }
  
  #home {
-   background-image: linear-gradient(rgb(0,0,0,0.4), rgb(0,0,0,0.4)),
-     url("./assets/5630939.jpg");
+   background-image: linear-gradient(rgb(0,0,0,0.4), rgb(0,0,0,0.9)),
+     url("./assets/home.png");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -347,6 +347,10 @@
  .logo-img {
    width: 60px;
    border-radius: 10px;
+ }
+
+ .qr-imge{
+  width: 130px;
  }
  
  .footer-icons {

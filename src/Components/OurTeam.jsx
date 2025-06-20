@@ -89,14 +89,14 @@ export default function OurTeam() {
         <div id='our-team'>
             
             <div ref={ref} 
-             className={`container  p-50 ${isInView? 'custom-ani-d':'custom-ani-e'}`}>
+             className={`container  p-50  ${isInView? 'custom-ani-d':'custom-ani-e'}`}>
                 <div className='text-center text-white mb-3'>
                     <h2 className='section-header'>
                         Our Team
                     </h2>
                 </div>
                 
-                <div className="system-dark p-5 ">
+                <div className="system-dark p-lg-5 ">
                 
                 <Slider asNavFor={nav2} ref={slider => (sliderRef1 = slider)} {...snSettings}>
                     <div className="inner px-3 ">

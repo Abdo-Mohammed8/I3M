@@ -49,15 +49,15 @@ export default function Contact() {
                         Email Us
                     </h2>
                 </div>
-                <div className="system-dark p-5">
+                <div className="system-dark p-1 p-lg-5">
                     <div className='row'>
 
                         <div className="col-lg-7 ">
-                            <div className="inner h-100 d-flex justify-content-center align-items-center p-3">
+                            <div className="inner h-100 d-flex justify-content-center align-items-center p-1 p--lg-3">
                                 <img src={flag ? email : email1} alt="email-image" />
                             </div>
                         </div>
-                        <div className="col-lg-5 d-flex justify-content-center align-items-center">
+                        <div className="col-lg-5 d-flex justify-content-center align-items-center mt-4">
                             <div className="inner w-100 ">
                                 <form ref={form} onSubmit={sendEmail}>
                                     <div className="mb-3">
